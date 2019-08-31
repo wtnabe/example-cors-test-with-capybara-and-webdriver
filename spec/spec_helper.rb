@@ -8,3 +8,5 @@ require 'rack'
 require 'rack/cors'
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
+
+require 'capybara_helper'
